@@ -7,7 +7,7 @@ def main():
    for x in range(inicio, final + 1):
        primos = True
 # El segundo for divide cada valor dentro del intervalo y si el resultado es 0 no mostrara el valor ya que se trata de un número no primo
-       for j in range(2,11):
+       for j in range(2, 11):
            if x == j:
                break
            elif x%j == 0:
