@@ -1,3 +1,4 @@
+# Constante del número de notas que ha de introducir el usuario
 NOTAS=15
 
 def main():
